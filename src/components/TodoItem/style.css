@@ -1,0 +1,34 @@
+.Card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #444;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #333333;
+}
+
+.Card--text h1 {
+  color: #ff9900;
+}
+
+.Card--button button {
+  background: #f5f6f7;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Card--button__delete {
+  border: 1px solid #ca0000;
+  color: #ca0000;
+}
+
+.Card--button__done {
+  border: 1px solid #00aa69;
+  color: #00aa69;
+  margin-right: 1rem;
+}
+
+.hide-button {
+  display: none;
+}
