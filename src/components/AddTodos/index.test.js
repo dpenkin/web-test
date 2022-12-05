@@ -3,10 +3,10 @@ import '@testing-library/jest-dom/extend-expect';
 import { render, screen } from "@testing-library/react";
 import Form from "./index";
 
-describe("Form component", () => {
+describe("Render form component", () => {
   render(<Form />);
 
-  it('render components', () => {
+  it('should render component form', () => {
     const buttonElement = screen.getByRole('button');
     const inputNameElement = screen.getByPlaceholderText(/Name/i);
     const inputDescriptionElement = screen.getByPlaceholderText(/Description/i);
