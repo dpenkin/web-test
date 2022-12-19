@@ -44,7 +44,7 @@ jest.mock("./services", () => {
 });
 
 
-describe("Element testing todo", () => {
+describe("Test App component", () => {
 
   it("should return items todo", async () => {
     mockGetFullTodoList = jest.fn().mockReturnValue({ data: TODO_LIST_GET_RESPONSE });

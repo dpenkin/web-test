@@ -2,7 +2,7 @@ import React, { useState, memo } from 'react';
 
 import "./style.css";
 
-function AddTodo({ saveTodo }) {
+function FormComponent({ saveTodo }) {
   const [formData, setFormData] = useState();
 
   const handleForm = (e)=> {
@@ -30,4 +30,4 @@ function AddTodo({ saveTodo }) {
   )
 }
 
-export default memo(AddTodo);
+export default memo(FormComponent);

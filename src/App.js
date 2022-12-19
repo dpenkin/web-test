@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useState } from "react";
 
 import TodoItem from "./components/TodoItem";
-import AddTodo from "./components/AddTodos";
+import FormComponent from "./components/FormComponent";
 import {
   useGetFullListTodoMutation,
   usePostTodoMutation,
@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <h1>My Todos</h1>
-      <AddTodo saveTodo={handleSaveTodo} />
+      <FormComponent saveTodo={handleSaveTodo} />
       {todos.map((todo) => (
         <TodoItem
           key={todo._id}

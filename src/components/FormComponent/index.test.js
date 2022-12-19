@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect';
 import { render, screen } from "@testing-library/react";
 import Form from "./index";
 
-describe("Render form component", () => {
+describe("Test render form component", () => {
   render(<Form />);
 
   it('should render component form', () => {
